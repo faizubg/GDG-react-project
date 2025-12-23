@@ -16,7 +16,7 @@ const Sidebar = () => {
       </div>
 
       <div className="sidebar-links">
-        <NavLink to="/">Members</NavLink>
+        <NavLink to ="/">Analytics</NavLink>
         <NavLink to="/events">Events</NavLink>
         <NavLink to="/emails">Emails</NavLink>
         <NavLink to="/settings">Settings</NavLink>

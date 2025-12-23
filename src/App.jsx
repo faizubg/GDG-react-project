@@ -1,8 +1,11 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
+
 import Sidebar from './componets/Sidebar'
 import Navbar from './componets/Navbar'
 
+
+import Analytics from './pages/sidebar/Analytics'
 import Members from './pages/dashboard/Members'
 import Events from './pages/dashboard/Events'
 import Emails from './pages/sidebar/Emails'
@@ -28,6 +31,7 @@ const App = () => {
         </Routes>
       </div>
     </div>
+    
   )
 }
 
