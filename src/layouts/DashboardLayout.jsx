@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet } from "react-router-dom"; // ✅ ADD THIS
+import { Outlet } from "react-router-dom"; zz
 import Sidebar from "../components/Sidebar";
 import TopBar from "../components/NavBar";
 import "../App.css";

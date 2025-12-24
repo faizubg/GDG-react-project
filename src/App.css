@@ -6,7 +6,7 @@
 /* Sidebar */
 .sidebar {
   width: 260px;
-  background: white;
+  background: rgb(249, 248, 248);
   border-right: 1px solid #ddd;
   padding: 12px;
 }
@@ -22,7 +22,7 @@
   padding: 10px;
   border-radius: 6px;
   margin-bottom: 16px;
-  color: #333;
+  color: #080101;
 }
 
 .sidebar-links a {
@@ -39,7 +39,7 @@
 /* Navbar */
 .announcement {
   background: #4285f4;
-  color: rgb(17, 2, 2);
+  color: rgb(242, 239, 239);
   text-align: center;
   padding: 6px;
 }
