@@ -4,25 +4,43 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
+      
       <div className="announcement">
         Explore the new dashboard! You can switch back at any time.
       </div>
 
+      
       <div className="navbar">
-        <h3>Google Developer Groups</h3>
+        <div className="navbar-title">
+          Google Developer Groups
+        </div>
 
         <div className="nav-tabs">
-          <NavLink to="/overview">Overview</NavLink> 
-          <NavLink to="/">Members</NavLink>
-          <NavLink to="/events">Events</NavLink>
-          <NavLink to="/attendees">Attendees</NavLink>
-           <NavLink to="/tickets">Ticket</NavLink>
-          <NavLink to="/sponsors">Sponsors</NavLink>
-          <NavLink to="/website">Website</NavLink>
-          
-         
+          <NavLink to="/dashboard" end>
+            Overview
+          </NavLink>
 
+          <NavLink to="/dashboard">
+            Members
+          </NavLink>
 
+          <NavLink to="/dashboard/events">
+            Events
+          </NavLink>
+
+          <NavLink to="/dashboard/attendees">
+            Attendees
+          </NavLink>
+
+          <NavLink to="/dashboard/tickets">
+            Tickets
+          </NavLink>
+
+          <NavLink to="/dashboard/sponsors">
+            Sponsors
+          </NavLink>
+
+          <a href="#" className="external-link">Website</a>
         </div>
       </div>
     </>

@@ -4,11 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Sidebar = () => {
   return (
     <aside className="sidebar">
-      <input
-        type="text"
-        placeholder="Search chapters"
-        className="search-input"
-      />
+      <input className="search-input" placeholder="Search chapters" />
 
       <div className="chapter-card">
         <strong>GDG on Campus Gombe State University</strong>
@@ -16,11 +12,11 @@ const Sidebar = () => {
       </div>
 
       <div className="sidebar-links">
-        <NavLink to ="/">Analytics</NavLink>
-        <NavLink to="/events">Events</NavLink>
-        <NavLink to="/emails">Emails</NavLink>
-        <NavLink to="/settings">Settings</NavLink>
-        <NavLink to="/sponsors">Sponsors</NavLink>
+        <NavLink to="/dashboard">Members</NavLink>
+        <NavLink to="/dashboard/events">Events</NavLink>
+        <NavLink to="/dashboard/emails">Emails</NavLink>
+        <NavLink to="/dashboard/settings">Settings</NavLink>
+        <NavLink to="/dashboard/sponsors">Sponsors</NavLink>
       </div>
     </aside>
   )

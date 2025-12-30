@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../layouts/AuthContext";
+import sha256 from "crypto-js/sha256";
 
 const Login = () => {
   const { login } = useAuth();

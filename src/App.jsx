@@ -16,6 +16,9 @@ import Events from "./pages/dashboard/Events";
 import Emails from "./pages/sidebar/Emails";
 import Settings from "./pages/sidebar/Settings";
 import Sponsors from "./pages/sidebar/Sponsors";
+import Attendees from "./pages/dashboard/Attendees";
+import Tickets from "./pages/dashboard/Tickets";
+
 
 import "./App.css";
 

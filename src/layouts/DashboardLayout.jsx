@@ -1,19 +1,19 @@
-import React from "react";
-import { Outlet } from "react-router-dom"; zz
-import Sidebar from "../components/Sidebar";
-import TopBar from "../components/NavBar";
-import "../App.css";
+import React from 'react'
+import { Outlet } from 'react-router-dom'
+import Sidebar from '../components/Sidebar'
+import Navbar from '../components/Navbar'
 
 const DashboardLayout = () => {
   return (
     <div className="dashboard">
       <Sidebar />
-      <div className="main-area">
-        <TopBar />
+
+      <div className="main">
+        <Navbar />
         <Outlet />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default DashboardLayout;
+export default DashboardLayout
