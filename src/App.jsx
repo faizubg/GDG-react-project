@@ -11,6 +11,7 @@ import Signup from "./pages/Signup";
 import Sidebar from "./componets/Sidebar";
 import Navbar from "./componets/Navbar";
 
+import Analytics from "./pages/sidebar/Analytics";
 import Members from "./pages/dashboard/Members";
 import Events from "./pages/dashboard/Events";
 import Emails from "./pages/sidebar/Emails";
@@ -52,6 +53,9 @@ const App = () => {
             <Route path="emails" element={<Emails />} />
             <Route path="settings" element={<Settings />} />
             <Route path="sponsors" element={<Sponsors />} />
+            <Route path="attendees" element={<Attendees />} />
+            <Route path="tickets" element={<Tickets />} />
+            <Route path="Analytics" element={<Analytics />} />
           </Route>
         </Route>
       </Routes>
