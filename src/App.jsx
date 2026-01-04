@@ -55,7 +55,10 @@ const App = () => {
             <Route path="sponsors" element={<Sponsors />} />
             <Route path="attendees" element={<Attendees />} />
             <Route path="tickets" element={<Tickets />} />
-            <Route path="Analytics" element={<Analytics />} />
+            <Route path="analytics" element={<Analytics />} />
+            <Route path="members" element={<Members />} />
+            
+
           </Route>
         </Route>
       </Routes>
